@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0138475717672CD800AC9924 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0138475617672CD800AC9924 /* UIKit.framework */; };
+		0138475917672CD800AC9924 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0138475817672CD800AC9924 /* Foundation.framework */; };
+		0138475B17672CD800AC9924 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0138475A17672CD800AC9924 /* CoreGraphics.framework */; };
+		0138476117672CD900AC9924 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0138475F17672CD900AC9924 /* InfoPlist.strings */; };
+		0138476317672CD900AC9924 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0138476217672CD900AC9924 /* main.m */; };
+		0138476717672CD900AC9924 /* aszAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0138476617672CD900AC9924 /* aszAppDelegate.m */; };
+		0138476917672CD900AC9924 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0138476817672CD900AC9924 /* Default.png */; };
+		0138476B17672CD900AC9924 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0138476A17672CD900AC9924 /* Default@2x.png */; };
+		0138476D17672CD900AC9924 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0138476C17672CD900AC9924 /* Default-568h@2x.png */; };
+		0138477317672CD900AC9924 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0138477117672CD900AC9924 /* MainStoryboard_iPad.storyboard */; };
+		0138477617672CD900AC9924 /* aszViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0138477517672CD900AC9924 /* aszViewController.m */; };
+		0138477F17672E1A00AC9924 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 0138477E17672E1A00AC9924 /* index.html */; };
+		0138478217684B1000AC9924 /* aszios2js2iosBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 0138478117684B1000AC9924 /* aszios2js2iosBridge.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0138475317672CD800AC9924 /* ios2jsbridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ios2jsbridge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0138475617672CD800AC9924 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0138475817672CD800AC9924 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0138475A17672CD800AC9924 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0138475E17672CD900AC9924 /* ios2jsbridge-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ios2jsbridge-Info.plist"; sourceTree = "<group>"; };
+		0138476017672CD900AC9924 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0138476217672CD900AC9924 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0138476417672CD900AC9924 /* ios2jsbridge-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ios2jsbridge-Prefix.pch"; sourceTree = "<group>"; };
+		0138476517672CD900AC9924 /* aszAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = aszAppDelegate.h; sourceTree = "<group>"; };
+		0138476617672CD900AC9924 /* aszAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = aszAppDelegate.m; sourceTree = "<group>"; };
+		0138476817672CD900AC9924 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0138476A17672CD900AC9924 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0138476C17672CD900AC9924 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0138477217672CD900AC9924 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		0138477417672CD900AC9924 /* aszViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = aszViewController.h; sourceTree = "<group>"; };
+		0138477517672CD900AC9924 /* aszViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = aszViewController.m; sourceTree = "<group>"; };
+		0138477E17672E1A00AC9924 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		0138478017684B1000AC9924 /* aszios2js2iosBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aszios2js2iosBridge.h; sourceTree = "<group>"; };
+		0138478117684B1000AC9924 /* aszios2js2iosBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = aszios2js2iosBridge.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0138475017672CD800AC9924 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0138475717672CD800AC9924 /* UIKit.framework in Frameworks */,
+				0138475917672CD800AC9924 /* Foundation.framework in Frameworks */,
+				0138475B17672CD800AC9924 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0138474A17672CD800AC9924 = {
+			isa = PBXGroup;
+			children = (
+				0138475C17672CD800AC9924 /* ios2jsbridge */,
+				0138475517672CD800AC9924 /* Frameworks */,
+				0138475417672CD800AC9924 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0138475417672CD800AC9924 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0138475317672CD800AC9924 /* ios2jsbridge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0138475517672CD800AC9924 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0138475617672CD800AC9924 /* UIKit.framework */,
+				0138475817672CD800AC9924 /* Foundation.framework */,
+				0138475A17672CD800AC9924 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0138475C17672CD800AC9924 /* ios2jsbridge */ = {
+			isa = PBXGroup;
+			children = (
+				0138477E17672E1A00AC9924 /* index.html */,
+				0138476517672CD900AC9924 /* aszAppDelegate.h */,
+				0138476617672CD900AC9924 /* aszAppDelegate.m */,
+				0138477117672CD900AC9924 /* MainStoryboard_iPad.storyboard */,
+				0138477417672CD900AC9924 /* aszViewController.h */,
+				0138477517672CD900AC9924 /* aszViewController.m */,
+				0138478017684B1000AC9924 /* aszios2js2iosBridge.h */,
+				0138478117684B1000AC9924 /* aszios2js2iosBridge.m */,
+				0138475D17672CD900AC9924 /* Supporting Files */,
+			);
+			path = ios2jsbridge;
+			sourceTree = "<group>";
+		};
+		0138475D17672CD900AC9924 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0138475E17672CD900AC9924 /* ios2jsbridge-Info.plist */,
+				0138475F17672CD900AC9924 /* InfoPlist.strings */,
+				0138476217672CD900AC9924 /* main.m */,
+				0138476417672CD900AC9924 /* ios2jsbridge-Prefix.pch */,
+				0138476817672CD900AC9924 /* Default.png */,
+				0138476A17672CD900AC9924 /* Default@2x.png */,
+				0138476C17672CD900AC9924 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0138475217672CD800AC9924 /* ios2jsbridge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0138477917672CD900AC9924 /* Build configuration list for PBXNativeTarget "ios2jsbridge" */;
+			buildPhases = (
+				0138474F17672CD800AC9924 /* Sources */,
+				0138475017672CD800AC9924 /* Frameworks */,
+				0138475117672CD800AC9924 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ios2jsbridge;
+			productName = ios2jsbridge;
+			productReference = 0138475317672CD800AC9924 /* ios2jsbridge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0138474B17672CD800AC9924 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = asz;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "alex zaikman";
+			};
+			buildConfigurationList = 0138474E17672CD800AC9924 /* Build configuration list for PBXProject "ios2jsbridge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0138474A17672CD800AC9924;
+			productRefGroup = 0138475417672CD800AC9924 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0138475217672CD800AC9924 /* ios2jsbridge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0138475117672CD800AC9924 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0138476117672CD900AC9924 /* InfoPlist.strings in Resources */,
+				0138476917672CD900AC9924 /* Default.png in Resources */,
+				0138476B17672CD900AC9924 /* Default@2x.png in Resources */,
+				0138476D17672CD900AC9924 /* Default-568h@2x.png in Resources */,
+				0138477317672CD900AC9924 /* MainStoryboard_iPad.storyboard in Resources */,
+				0138477F17672E1A00AC9924 /* index.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0138474F17672CD800AC9924 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0138476317672CD900AC9924 /* main.m in Sources */,
+				0138476717672CD900AC9924 /* aszAppDelegate.m in Sources */,
+				0138477617672CD900AC9924 /* aszViewController.m in Sources */,
+				0138478217684B1000AC9924 /* aszios2js2iosBridge.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0138475F17672CD900AC9924 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0138476017672CD900AC9924 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0138477117672CD900AC9924 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0138477217672CD900AC9924 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0138477717672CD900AC9924 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0138477817672CD900AC9924 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0138477A17672CD900AC9924 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ios2jsbridge/ios2jsbridge-Prefix.pch";
+				INFOPLIST_FILE = "ios2jsbridge/ios2jsbridge-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0138477B17672CD900AC9924 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ios2jsbridge/ios2jsbridge-Prefix.pch";
+				INFOPLIST_FILE = "ios2jsbridge/ios2jsbridge-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0138474E17672CD800AC9924 /* Build configuration list for PBXProject "ios2jsbridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0138477717672CD900AC9924 /* Debug */,
+				0138477817672CD900AC9924 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0138477917672CD900AC9924 /* Build configuration list for PBXNativeTarget "ios2jsbridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0138477A17672CD900AC9924 /* Debug */,
+				0138477B17672CD900AC9924 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0138474B17672CD800AC9924 /* Project object */;
+}

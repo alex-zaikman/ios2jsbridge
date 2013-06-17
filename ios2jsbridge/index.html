@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <script type="text/javascript">
+         
+            
+            
+            
+            function registerIosFunctions(){
+             
+                var iframe = document.createElement("IFRAME");
+                iframe.setAttribute("src", "js-call:registerIosFunctions");
+                                    document.documentElement.appendChild(iframe);
+                                    iframe.parentNode.removeChild(iframe);
+                                    iframe = null;
+            }
+            
+            
+            function foo(msg,s,f)
+            {
+        
+                    
+                s(msg);
+                
+            };
+            
+            function displayDate()
+            {
+                document.getElementById("demo").innerHTML=Date();
+            };
+            
+        </script>
+    </head>
+    
+    <body onload="registerIosFunctions()">
+        
+    <h>Hello world!</h>
+        
+    <p id="demo">This is a paragraph.</p>
+
+        
+ 
+     <p><button onclick="doit()">doit</button></p>
+        
+    </body>
+
+</html>
